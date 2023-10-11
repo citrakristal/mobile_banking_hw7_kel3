@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyMobileBanking" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnPrimary">@color/richBlack</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorAccent">@color/mikadoYellow</item>
+        <item name="colorOnContainer">@color/antiflash_white</item>
+        <item name="colorContainer">@color/platinum</item>
+
+
+    </style>
+
+</resources>
