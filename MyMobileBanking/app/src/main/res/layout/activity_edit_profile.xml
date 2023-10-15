@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity"
+    android:backgroundTint="@color/white">
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/gambar_2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/icon_back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="106dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gambar_3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_2"
+        android:layout_marginTop="15dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/img_3"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/ly_1_ep">
+
+        <EditText
+            android:id="@+id/edit_uname"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/input_shape"
+            android:backgroundTint="@color/antiflash_white"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="username"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_below="@+id/edit_uname"
+            android:background="@drawable/input_shape"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Email"
+            android:fontFamily="@font/poppinsregular"
+            android:backgroundTint="@color/antiflash_white"
+            android:id="@+id/edit_email"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_below="@+id/edit_email"
+            android:background="@drawable/input_shape"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Phone Number"
+            android:fontFamily="@font/poppinsregular"
+            android:backgroundTint="@color/antiflash_white"
+            android:id="@+id/edit_pn_ep"
+            />
+
+        <Button
+            android:id="@+id/btn_save_ep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_pn_ep"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:width="350dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            style="@android:style/Widget.Button"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
